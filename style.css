@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+
+body {
+  font-family: 'Cantora One', sans-serif;
+  margin: 0px;
+  overflow: hidden;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  background: rgb(41,31,60);
+  background: radial-gradient(circle, rgba(41,31,60,1) 0%, rgba(148,217,233,1) 100%);
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.description {
+  width: 30vw;
+  height: 10vh;
+  background-color:;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 1vh;
+  color: black;
+}
+
+.description:hover {
+  background-color: black;
+  color: white;
+}
+
+.heading {
+  
+  border-radius: 15px;
+  height: 10vh;
+  width: 30vw;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  
+  
+}
+
+.heading:hover {
+  background-color: black;
+  color: white;
+  
+}
+
+.text-box {
+  width: 15vw;
+  height: 8vh;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  
+  
+
+}
+
+.text-box:hover {
+  color: white;
+  
+}
+
+#amount {
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5vh;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  
+}
+
+#given {
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5vh;
+  border-radius: 5px;
+  margin-top: vh;
+}
+
+#check-button {
+  width: 8vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8vh;
+  border-radius: 6px;
+  margin-top: 4vh;
+  font-family: 'Cantora One', sans-serif;
+}
+
+#check-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.color {
+  margin-bottom: 3vh;;
+}
+
+.color:hover {
+  color: white;
+}
+table th, td {
+    
+  border: 1px solid black;
+  height: 3vh;
+}
+
+.table-content {
+  border: 1px solid black;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vh;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .heading {
+  
+    
+    font-size: 18px;
+    
+    
+  }
+  .description {
+    
+    font-size: 12px;
+  }
+  .text-box {
+    font-size: 15px;
+  }
+  #check-button{
+    width: 20vw;
+  }
+  .table-content {
+    margin-bottom: 4vh;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  table th, td {
+    
+    border: 2px solid black;
+  }
+  .main{
+    font-size: 12px;
+  }
+  #no-of-notes {
+    font-size:10px;
+  }
+  .notes {
+    font-size: 10px;
+  }
+}
+
