@@ -11,11 +11,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 70vw;
-  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
   text-align: center;
   margin: auto;
   border-radius: 20px;
-  border-style: solid;
+  border-style:outset;
   border-color: black;
 
 }
@@ -34,6 +34,7 @@ body {
 .description:hover {
   background-color: black;
   color: white;
+  width: 30vw;
   
 }
 
@@ -64,7 +65,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  margin-top: 3vh;
+  margin-top: 2vh;
   
   
 
@@ -81,7 +82,7 @@ body {
   margin-right: auto;
   height: 4.5vh;
   border-radius: 5px;
-  margin-bottom: 2vh;
+  margin-bottom: vh;
   
 }
 
@@ -100,7 +101,7 @@ body {
   margin-right: auto;
   height: 8vh;
   border-radius: 6px;
-  margin-top: 4vh;
+  margin-top: 2vh;
   font-family: 'Cantora One', sans-serif;
 }
 
@@ -110,7 +111,7 @@ body {
 }
 
 .color {
-  margin-bottom: 3vh;;
+  margin-bottom: 1vh;;
 }
 
 
@@ -119,12 +120,9 @@ body {
   color: white;
 }
 
-.description:hover {
-  background-color: black;
-  color: white;
-  width: 22vh;
+
   
-}
+
 table td, th{
   
   border: 1px solid black;
@@ -171,6 +169,7 @@ table{
   }
   .text-box {
     font-size: 15px;
+    margin-top: 4vh;;
   }
   #check-button{
     width: 20vw;
