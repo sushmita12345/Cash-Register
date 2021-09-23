@@ -11,8 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 70vw;
-  background: rgb(41,31,60);
-  background: radial-gradient(circle, rgba(41,31,60,1) 0%, rgba(148,217,233,1) 100%);
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
   text-align: center;
   margin: auto;
   border-radius: 20px;
@@ -24,7 +23,7 @@ body {
 .description {
   width: 30vw;
   height: 10vh;
-  background-color:;
+  
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -35,6 +34,7 @@ body {
 .description:hover {
   background-color: black;
   color: white;
+  
 }
 
 .heading {
@@ -78,7 +78,7 @@ body {
   width: 25vw;
   margin-left: auto;
   margin-right: auto;
-  height: 5vh;
+  height: 4.5vh;
   border-radius: 5px;
   margin-bottom: 2vh;
   
@@ -88,7 +88,7 @@ body {
   width: 25vw;
   margin-left: auto;
   margin-right: auto;
-  height: 5vh;
+  height: 4.5vh;
   border-radius: 5px;
   margin-top: vh;
 }
@@ -112,13 +112,28 @@ body {
   margin-bottom: 3vh;;
 }
 
+
+
 .color:hover {
   color: white;
 }
-table th, td {
-    
+
+.description:hover {
+  background-color: black;
+  color: white;
+  width: 22vh;
+  
+}
+table td, th{
+  
   border: 1px solid black;
-  height: 3vh;
+}
+th, td {
+  padding: 7px;
+}
+table{
+  border-collapse: collapse;
+  width: 100%
 }
 
 .table-content {
@@ -139,8 +154,7 @@ table th, td {
   }
   .container {
     height: 90vh;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
   }
   
   .heading {
@@ -162,18 +176,17 @@ table th, td {
   }
   .table-content {
     margin-bottom: 4vh;
-    width: 10vw;
+    
     margin-left: auto;
     margin-right: auto;
   }
-
-  
-  table th, td {
-    
-    border: 2px solid black;
+  th, td {
+    padding: 4px;
   }
+  
+
   .main{
-    font-size: 12px;
+    font-size: 8px;
   }
   #no-of-notes {
     font-size:10px;
