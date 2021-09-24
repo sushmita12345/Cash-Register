@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
 
+:root {
+  --primary-dark: #1F2937;
+  --primary-green: #6EE787;
+}
+
 body {
   font-family: 'Cantora One', sans-serif;
   overflow: hidden;
+  background-color: var(--primary-dark);
+  color: var(--primary-green);
+
 }
 
 
@@ -10,40 +18,35 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 70vw;
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  width: 60vw;
+  /*background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);*/
   text-align: center;
   margin: auto;
   border-radius: 20px;
   border-style:outset;
-  border-color: black;
+  border-color: var(--primary-green);
 
 }
 
 .description {
   width: 30vw;
   height: 10vh;
-  
+  background-color:;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   margin-top: 1vh;
-  color: black;
+  color: var(--primary-green);
+
 }
 
-.description:hover {
-  background-color: black;
-  color: white;
-  width: 30vw;
-  
-}
 
 .heading {
   
   border-radius: 15px;
   height: 10vh;
   width: 30vw;
-  background-color: white;
+  background-color: var(--primary-dark);
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
@@ -53,8 +56,8 @@ body {
 }
 
 .heading:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--primary-green);
+  color:  var(--primary-dark);
   
 }
 
@@ -71,10 +74,7 @@ body {
 
 }
 
-.text-box:hover {
-  color: white;
-  
-}
+
 
 #amount {
   width: 25vw;
@@ -83,6 +83,8 @@ body {
   height: 4.5vh;
   border-radius: 5px;
   margin-bottom: vh;
+  border-width: medium;
+  border-color: var(--primary-green);
   
 }
 
@@ -93,6 +95,8 @@ body {
   height: 4.5vh;
   border-radius: 5px;
   margin-top: vh;
+  border-width: medium;
+  border-color: var(--primary-green);
 }
 
 #check-button {
@@ -102,42 +106,42 @@ body {
   height: 8vh;
   border-radius: 6px;
   margin-top: 2vh;
+  color: var(--primary-green);
   font-family: 'Cantora One', sans-serif;
+  background-color: var(--primary-dark);
+  border-width: medium;
+  border-color: var(--primary-green);
 }
 
 #check-button:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--primary-green);
+  color: var(--primary-dark);
+  
 }
 
 .color {
   margin-bottom: 1vh;;
 }
 
-
-
-.color:hover {
-  color: white;
-}
-
-
   
 
 table td, th{
   
-  border: 1px solid black;
+  border: 1px solid #6EE787;
 }
 th, td {
   padding: 7px;
+  
 }
 table{
   border-collapse: collapse;
-  width: 100%
+  
+  
 }
 
 .table-content {
-  border: 1px solid black;
-  width: 60vw;
+  border: 1px solid #6EE787;
+  width: 50vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1vh;
@@ -176,14 +180,14 @@ table{
   }
   .table-content {
     margin-bottom: 4vh;
-    
+    width: 30vw;
     margin-left: auto;
     margin-right: auto;
   }
   th, td {
-    padding: 4px;
+    padding: 2.5px;
   }
-  
+
 
   .main{
     font-size: 8px;
