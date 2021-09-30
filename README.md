@@ -16,3 +16,4 @@ To clone the repository open the terminal and run below command:</br>
 <pre>git clone https://github.com/sushmita12345/Cash-Register</pre>
 
 
+Live at: https://cashretrn.netlify.app/
